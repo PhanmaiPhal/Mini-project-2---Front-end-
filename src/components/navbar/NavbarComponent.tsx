@@ -4,7 +4,7 @@ import Image from 'next/image'
 export default function NavbarComponent() {
     return (
         <>
-            <nav className="bg-white border-gray-200 dark:bg-gray-900 text-[18px]">
+            <nav className="bg-white border-gray-200 dark:bg-gray-900 text-[18px] z-99 sticky top-0">
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                     <a href="https://flowbite.com/" className="flex items-center space-x-3 rtl:space-x-reverse">
                         <Image src="https://cambodia.mom-gmr.org/uploads/tx_lfrogmom/media/11-400_import.png" className="h-8" alt="Flowbite Logo" width={50} height={50} />
@@ -31,7 +31,7 @@ export default function NavbarComponent() {
                                 <a href="about-us" className="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
                             </li>
                             <li>
-                                <a href="contact" className="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Service</a>
+                                <a href="services" className="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Service</a>
                             </li>
                         </ul>
                     </div>

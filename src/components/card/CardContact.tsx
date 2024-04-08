@@ -2,118 +2,45 @@ import React from 'react'
 
 export default function CardContact() {
     return (
-            <>
-                <div className="bg-gray-700 px-4 py-16 min-h-screen">
-                    <div className="max-w-7xl mx-auto px-6 md:px-12 xl:px-6">
-                        <div className="mb-10 space-y-4 px-6 md:px-0">
-                            <h2 className="text-center text-2xl font-bold text-white sm:text-3xl md:text-4xl">Pricing</h2>
-                        </div>
-                        <div className="flex flex-col sm:flex-row justify-center gap-4">
-                            <div
-                                className="flex flex-col items-center aspect-auto p-4 sm:p-8 border rounded-3xl bg-gray-800 border-gray-700 shadow-gray-600/10 shadow-none m-2 flex-1 max-w-md">
-                                <h2 className="text-lg sm:text-xl font-medium text-white mb-2">Starter</h2>
-                                <p className="text-lg sm:text-xl text-center mb-8 mt-4 text-gray-400">
-                                    <span className="text-3xl sm:text-4xl font-bold text-white">$19</span> / Month
-                                </p>
-                                <ul className="list-none list-inside mb-6 text-center text-gray-300">
-                                    <li className="font-bold text-orange-600">1 Website</li>
-                                    <li>Custom Domain</li>
-                                    <li>Basic SEO</li>
-                                    <li>Limited Support</li>
-                                </ul>
-                                <a target="_blank" rel="noopener noreferrer"
-                                    className="lemonsqueezy-button relative flex h-9 w-full items-center justify-center px-4 before:absolute before:inset-0 before:rounded-full before:bg-white before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max"
-                                    href="https://example.com/starter-plan"><span className="relative text-sm font-semibold text-black">Get Started</span></a>
-                            </div>
-                            <div
-                                className="flex flex-col items-center aspect-auto p-4 sm:p-8 border rounded-3xl bg-gray-800 border-gray-700 shadow-gray-600/10 shadow-none m-2 flex-1 max-w-md">
-                                <h2 className="text-lg sm:text-xl font-medium text-white mb-2">Pro</h2>
-                                <p className="text-lg sm:text-xl text-center mb-8 mt-4 text-gray-400">
-                                    <span className="text-3xl sm:text-4xl font-bold text-white">$49</span> / Month
-                                </p>
-                                <ul className="list-none list-inside mb-6 text-center text-gray-300">
-                                    <li className="font-bold text-orange-600">3 Websites</li>
-                                    <li>Custom Domain &amp; Subdomain</li>
-                                    <li>Advanced SEO</li>
-                                    <li>24/7 Support</li>
-                                </ul>
-                                <a target="_blank" rel="noopener noreferrer"
-                                    className="lemonsqueezy-button relative flex h-9 w-full items-center justify-center px-4 before:absolute before:inset-0 before:rounded-full before:bg-white before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max"
-                                    href="https://example.com/pro-plan"><span className="relative text-sm font-semibold text-black">Get Started</span></a>
-                            </div>
-                            <div
-                                className="flex flex-col items-center aspect-auto p-4 sm:p-8 border rounded-3xl bg-gray-800 border-gray-700 shadow-gray-600/10 shadow-none m-2 flex-1 max-w-md">
-                                <h2 className="text-lg sm:text-xl font-medium text-white mb-2">Business</h2>
-                                <p className="text-lg sm:text-xl text-center mb-8 mt-4 text-gray-400">
-                                    <span className="text-3xl sm:text-4xl font-bold text-white">$99</span> / Month
-                                </p>
-                                <ul className="list-none list-inside mb-6 text-center text-gray-300">
-                                    <li className="font-bold text-orange-600">Unlimited Websites</li>
-                                    <li>Custom Domain &amp; Subdomain</li>
-                                    <li>Enterprise SEO</li>
-                                    <li>Premium Support</li>
-                                </ul>
-                                <a target="_blank" rel="noopener noreferrer"
-                                    className="lemonsqueezy-button relative flex h-9 w-full items-center justify-center px-4 before:absolute before:inset-0 before:rounded-full before:bg-white before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max"
-                                    href="https://example.com/business-plan"><span className="relative text-sm font-semibold text-black">Get Started</span></a>
-                            </div>
-                        </div>
+        <div>
+            <section className="w-full mx-auto py-10 bg-gray-50 dark:bg-gray-900 dark:text-white">
+                <div className="w-fit pb-1 px-2 mx-4 rounded-md text-2xl font-semibold border-b-2 border-blue-600 dark:border-b-2 dark:border-yellow-600">Services</div>
+
+                <div className="xl:w-[80%] sm:w-[85%] xs:w-[90%] mx-auto flex md:flex-row xs:flex-col lg:gap-4 xs:gap-2 justify-center lg:items-stretch md:items-center mt-4">
+                    <div className="lg:w-[50%] xs:w-full">
+                        <img className="lg:rounded-t-lg sm:rounded-sm xs:rounded-sm" src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHw1fHxob21lfGVufDB8MHx8fDE3MTA0OTAwNjl8MA&ixlib=rb-4.0.3&q=80&w=1080" alt="billboard image" />
                     </div>
-                    <div className="max-w-7xl my-10 mx-auto px-6 md:px-12 xl:px-6">
-                        <div className="flex flex-col sm:flex-row justify-center gap-4">
-                            <div
-                                className="flex flex-col items-center aspect-auto p-4 sm:p-8 border rounded-3xl bg-gray-800 border-gray-700 shadow-gray-600/10 shadow-none m-2 flex-1 max-w-md">
-                                <h2 className="text-lg sm:text-xl font-medium text-white mb-2">Starter</h2>
-                                <p className="text-lg sm:text-xl text-center mb-8 mt-4 text-gray-400">
-                                    <span className="text-3xl sm:text-4xl font-bold text-white">$19</span> / Month
-                                </p>
-                                <ul className="list-none list-inside mb-6 text-center text-gray-300">
-                                    <li className="font-bold text-orange-600">1 Website</li>
-                                    <li>Custom Domain</li>
-                                    <li>Basic SEO</li>
-                                    <li>Limited Support</li>
-                                </ul>
-                                <a target="_blank" rel="noopener noreferrer"
-                                    className="lemonsqueezy-button relative flex h-9 w-full items-center justify-center px-4 before:absolute before:inset-0 before:rounded-full before:bg-white before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max"
-                                    href="https://example.com/starter-plan"><span className="relative text-sm font-semibold text-black">Get Started</span></a>
-                            </div>
-                            <div
-                                className="flex flex-col items-center aspect-auto p-4 sm:p-8 border rounded-3xl bg-gray-800 border-gray-700 shadow-gray-600/10 shadow-none m-2 flex-1 max-w-md">
-                                <h2 className="text-lg sm:text-xl font-medium text-white mb-2">Pro</h2>
-                                <p className="text-lg sm:text-xl text-center mb-8 mt-4 text-gray-400">
-                                    <span className="text-3xl sm:text-4xl font-bold text-white">$49</span> / Month
-                                </p>
-                                <ul className="list-none list-inside mb-6 text-center text-gray-300">
-                                    <li className="font-bold text-orange-600">3 Websites</li>
-                                    <li>Custom Domain &amp; Subdomain</li>
-                                    <li>Advanced SEO</li>
-                                    <li>24/7 Support</li>
-                                </ul>
-                                <a target="_blank" rel="noopener noreferrer"
-                                    className="lemonsqueezy-button relative flex h-9 w-full items-center justify-center px-4 before:absolute before:inset-0 before:rounded-full before:bg-white before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max"
-                                    href="https://example.com/pro-plan"><span className="relative text-sm font-semibold text-black">Get Started</span></a>
-                            </div>
-                            <div
-                                className="flex flex-col items-center aspect-auto p-4 sm:p-8 border rounded-3xl bg-gray-800 border-gray-700 shadow-gray-600/10 shadow-none m-2 flex-1 max-w-md">
-                                <h2 className="text-lg sm:text-xl font-medium text-white mb-2">Business</h2>
-                                <p className="text-lg sm:text-xl text-center mb-8 mt-4 text-gray-400">
-                                    <span className="text-3xl sm:text-4xl font-bold text-white">$99</span> / Month
-                                </p>
-                                <ul className="list-none list-inside mb-6 text-center text-gray-300">
-                                    <li className="font-bold text-orange-600">Unlimited Websites</li>
-                                    <li>Custom Domain &amp; Subdomain</li>
-                                    <li>Enterprise SEO</li>
-                                    <li>Premium Support</li>
-                                </ul>
-                                <a target="_blank" rel="noopener noreferrer"
-                                    className="lemonsqueezy-button relative flex h-9 w-full items-center justify-center px-4 before:absolute before:inset-0 before:rounded-full before:bg-white before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max"
-                                    href="https://example.com/business-plan"><span className="relative text-sm font-semibold text-black">Get Started</span></a>
-                            </div>
-                        </div>
+                    <div className="lg:w-[50%] sm:w-full xs:w-full bg-gray-100 dark:bg-gray-900 dark:text-gray-400 md:p-4 xs:p-0 rounded-md">
+                        <h2 className="text-3xl font-semibold text-gray-900 dark:text-white">Lorem ipsum dolor sit amet consectetur</h2>
+                        <p className="text-md mt-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore placeat assumenda nam
+                            veritatis, magni doloremque pariatur quos fugit ipsa id voluptatibus deleniti officiis cum ratione eligendi
+                            sed necessitatibus aliquam error laborum delectus quaerat. Delectus hic error eligendi sed repellat natus fuga
+                            nobis tempora possimus ullam!</p>
                     </div>
                 </div>
-            </>
-            
-       
-    );
+                {/* <!-- col-2 --> */}
+                <div className="xl:w-[80%] sm:w-[85%] xs:w-[90%] mx-auto flex md:flex-row xs:flex-col lg:gap-4 xs:gap-2 justify-center lg:items-stretch md:items-center mt-6">
+                    {/* <!--  --> */}
+                    <div className="md:hidden sm:block xs:block xs:w-full">
+                        <img className="lg:rounded-t-lg sm:rounded-sm xs:rounded-sm" src="https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHwxMXx8aG9tZXxlbnwwfDB8fHwxNzEwNDkwMDcwfDA&ixlib=rb-4.0.3&q=80&w=1080" alt="billboard image" />
+                    </div>
+                    {/* <!--  --> */}
+                    <div className="lg:w-[50%] xs:w-full bg-gray-100 dark:bg-gray-900 dark:text-gray-400 md:p-4 xs:p-0 rounded-md">
+                        <h2 className="text-3xl font-semibold text-gray-900 dark:text-white">Lorem ipsum dolor sit amet consectetur</h2>
+
+                        <p className="text-md mt-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore placeat assumenda nam
+                            veritatis, magni doloremque pariatur quos fugit ipsa id voluptatibus deleniti officiis cum ratione eligendi
+                            sed necessitatibus aliquam error laborum delectus quaerat. Delectus hic error eligendi sed repellat natus fuga
+                            nobis tempora possimus ullam!</p>
+                    </div>
+                    {/* <!--  --> */}
+                    <div className="md:block sm:hidden xs:hidden lg:w-[50%] xs:w-full">
+                        <img className="lg:rounded-t-lg xs:rounded-sm" src="https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHwxMXx8aG9tZXxlbnwwfDB8fHwxNzEwNDkwMDcwfDA&ixlib=rb-4.0.3&q=80&w=1080" alt="billboard image" />
+                    </div>
+                </div>
+            </section>
+
+            {/* <!-- Photo by '@candjstudios' & '@framesforyourheart' on Unsplash --> */}
+        </div>
+    )
 }

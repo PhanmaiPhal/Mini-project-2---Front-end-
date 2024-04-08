@@ -9,7 +9,7 @@ export default function FooterComponent() {
                     <div className="-mx-4 flex flex-wrap justify-between">
                         <div className="px-4 my-4 w-full xl:w-1/5">
                             <a href="/" className="block w-56 mb-10">
-                                <svg version="1.1" viewBox="0 0 3368 512" xmlns="http://www.w3.org/2000/svg">
+                                <svg version="1.1" viewBox="0 0 3368 512" xmlns="https://cambodia.mom-gmr.org/uploads/tx_lfrogmom/media/11-400_import.png">
                                     <g fill="none" fill-rule="evenodd">
                                         <g transform="translate(0 -75)">
                                             <g transform="translate(0 75)">
@@ -19,14 +19,14 @@ export default function FooterComponent() {
                                                 <circle cx="369" cy="286" r="40" fill="#2962FF"></circle>
                                             </g>
                                             <text fill="white" font-family="Nunito-Bold, Nunito" font-size="512" font-weight="bold">
-                                                <tspan x="654" y="518">Tailwindow</tspan>
+                                                <tspan x="654" y="518">Company</tspan>
                                             </text>
                                         </g>
                                     </g>
                                 </svg>
                             </a>
                             <p className="text-justify">
-                                Tailwindow is a collection of UI Components created using Tailwind CSS Framework. The UI Components gives you all of the building blocks you need to build any designs without any annoying opinionated styles you have to fight to override.
+                               
                             </p>
                         </div>
 
@@ -95,7 +95,7 @@ export default function FooterComponent() {
                             Tailwindow. All Rights Reserved.
                         </div>
                         <div className="px-4 w-full text-center sm:w-auto sm:text-left">
-                            Made with ❤️ by Tailwindow.
+                            Made with ❤️ by Sophanmai.
                         </div>
                     </div>
                 </div>

@@ -45,11 +45,11 @@ const CreateProductForm = () => {
   myHeaders.append("Content-Type", "application/json");
   myHeaders.append(
     "Authorization",
-    "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzE0NDcyMzYyLCJpYXQiOjE3MTIzMTIzNjIsImp0aSI6IjYxNDE3M2U1NTA0ZjQ3ZmI4NDlmZWQ5MDgyNDI5ODEzIiwidXNlcl9pZCI6MzF9.Q3lj0Io-qQFSHJOmz1PtgctR5iriOP0nRf6X4Mm3ZLw"
+    "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzE0NzU4NTU5LCJpYXQiOjE3MTI1OTg1NTksImp0aSI6ImI1MTdhYzJjYzY0MzQ2MjBhZTAzMDYxZjlmMjdmYzQzIiwidXNlcl9pZCI6Mzd9.j4BD-xv4eoPj2-4mTweWQmHCFjen32xagVKPfC82UjM"
   );
   myHeaders.append(
     "Cookie",
-    "csrftoken=UAYed23r5rTjUCeXkEop4Gqm307LAmptTfutJUnTm9l6N2Yg8m6XaSoDNSZE1tUe; sessionid=h5lwc3eior26qlvkl8q8a43y6bxopu0q"
+    "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcxNDkzMTM1OSwiaWF0IjoxNzEyNTk4NTU5LCJqdGkiOiJjMmJhNTljNzU3NDc0YmZiYmQ4NTk1ODhjYzgxNWFhMyIsInVzZXJfaWQiOjM3fQ.UN3gcEEVjdFdSmp4yUoKx_QSJyvZ0y4fsP1c4-BpMV4"
   );
   const handleSubmitToServer = async (values: any) => {
     

@@ -65,30 +65,12 @@ const UserTable = () => {
 
   }
   function handleEdit(value: ProductType) {
-    onOpen();
     onEditOpen()
   }
 
   function handleDelete(value: ProductType) {
     onDeleteOpen();
-    setUserDetail(value);
   }
-
-  // async function deleteProduct(productId: number) {
-  //   try {
-  //     await fetch(`${url_based}/${productId}`, {
-  //       method: "DELETE",
-  //     });
-
-  //     // Remove the deleted product from the list displayed
-  //     setFilter(prevFilter => prevFilter.filter(product => product.id !== productId));
-      
-  //     // Close the delete modal
-  //     onDeleteClose();
-  //   } catch (error) {
-  //     console.error("Error deleting product:", error);
-  //   }
-  // }
 
   const columnsData: TableColumn<ProductType>[] = [
     {
@@ -212,6 +194,18 @@ const UserTable = () => {
           )}
         </ModalContent>
       </Modal>
+
+      {/* <Modal isOpen={isEditOpen} onOpenChange={onDeleteOpenChange}>
+        <ModalContent>
+          {(onDeleteClose) => (
+            <>
+              <ModalHeader className="flex flex-col gap-1 justify-center items-center pt-7">Delete Product</ModalHeader>
+              <ModalBody>
+              </ModalBody>
+            </>
+          )}
+        </ModalContent>
+      </Modal> */}
      
     
       <DataTable
